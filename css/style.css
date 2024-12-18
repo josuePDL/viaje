@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-size: 50px 50px; /* Ajusta el tamaño de cada repetición */
+    background-repeat: repeat;
+    background-position: center; /* Centra la imagen */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-container {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: box-sizing;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: box-sizing;
+    background-color: #333; /* Fondo ligeramente gris para mejor contraste */
+    color: white;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;   
+
+    width: 100%;   
+
+}
+
+.background-image {
+    background-image: url('corazones.png'); /* Reemplaza 'your-image.jpg' con la ruta de tu imagen */
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca la imagen detrás del contenido */
+}
