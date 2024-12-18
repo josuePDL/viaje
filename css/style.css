@@ -5,6 +5,7 @@ body {
     background-size: 50px 50px; /* Ajusta el tamaño de cada repetición */
     background-repeat: repeat;
     background-position: center; /* Centra la imagen */
+    background-color: #f3a8e2;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
