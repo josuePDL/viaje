@@ -4,7 +4,7 @@ const loginForm = document.getElementById('loginForm');
 const myAudio = document.getElementById('myAudio');
 
 // Fecha de cuenta atrás (ajusta según tus necesidades)
-const countDownDate = new Date("January 09, 2025 00:00:00").getTime();
+const countDownDate = new Date("January 08, 2025 20:00:00").getTime();
 
 // Contraseña fija (cambia esto por la contraseña deseada)
 const fixedPassword = "Te amo";
